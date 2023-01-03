@@ -22,3 +22,8 @@ python -m pytest
 %%prun <function(data)> in ipython kernel
 %prun -s cumulative <function(data)> 
 ```
+## To run cython file
+
+```
+python setup.py build_ext --inplace
+```
